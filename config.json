@@ -1,0 +1,90 @@
+{
+  "routes": [
+    {
+      "path": "/",
+      "src": "src/pages/Splash.tsx"
+    },
+    {
+      "path": "/login",
+      "src": "src/pages/Login.tsx"
+    },
+    {
+      "path": "/register",
+      "src": "src/pages/Register.tsx"
+    },
+    {
+      "path": "/home",
+      "src": "src/pages/Home.tsx"
+    },
+    {
+      "path": "/active-exercise",
+      "src": "src/pages/ActiveExercise.tsx"
+    },
+    {
+      "path": "/settlement",
+      "src": "src/pages/Settlement.tsx"
+    },
+    {
+      "path": "/services",
+      "src": "src/pages/ServiceHub.tsx"
+    },
+    {
+      "path": "/appointment",
+      "src": "src/pages/Appointment.tsx"
+    },
+    {
+      "path": "/report",
+      "src": "src/pages/ScoreReport.tsx"
+    },
+    {
+      "path": "/history",
+      "src": "src/pages/History.tsx"
+    },
+    {
+      "path": "/detail",
+      "src": "src/pages/DataDetail.tsx"
+    },
+    {
+      "path": "/profile",
+      "src": "src/pages/Profile.tsx"
+    },
+    {
+      "path": "/feedback",
+      "src": "src/pages/Feedback.tsx"
+    },
+    {
+      "path": "/overview",
+      "src": "src/pages/ProjectOverview.tsx"
+    }
+  ],
+  "components": [
+    {
+      "name": "BottomNav",
+      "src": "src/components/BottomNav.tsx"
+    },
+    {
+      "name": "Button",
+      "src": "src/components/ui/button.tsx"
+    },
+    {
+      "name": "Card",
+      "src": "src/components/ui/card.tsx"
+    },
+    {
+      "name": "Input",
+      "src": "src/components/ui/input.tsx"
+    },
+    {
+      "name": "Badge",
+      "src": "src/components/ui/badge.tsx"
+    },
+    {
+      "name": "Avatar",
+      "src": "src/components/ui/avatar.tsx"
+    },
+    {
+      "name": "Tabs",
+      "src": "src/components/ui/tabs.tsx"
+    }
+  ]
+}
