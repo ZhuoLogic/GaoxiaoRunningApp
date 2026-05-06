@@ -31,7 +31,7 @@ const VenueCheckin: React.FC = () => {
 
   // 2. 持续记录打卡时长 (支持模拟息屏/后台计时逻辑)
   useEffect(() => {
-    let timer: NodeJS.Timeout;
+    let timer: ReturnType<typeof setInterval>;
     if (status === 'running') {
       // 在实际生产的 App 中，这里可能会记录 startTime，
       // 每次唤醒时用 Date.now() - startTime 来计算精确时长以对抗息屏休眠

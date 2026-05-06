@@ -37,7 +37,7 @@ const ActiveExercise: React.FC = () => {
 
   // 2. 跑步数据持续记录逻辑
   useEffect(() => {
-    let timer: NodeJS.Timeout;
+    let timer: ReturnType<typeof setInterval>;
     if (runStatus === 'running') {
       timer = setInterval(() => {
         setSeconds(prev => prev + 1);
